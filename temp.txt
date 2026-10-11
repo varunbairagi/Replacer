@@ -1,0 +1,27 @@
+Build a local Python desktop application in this workspace.
+
+Purpose:
+Generate client land-record Word documents using the original
+.docx file inside templates/.
+
+Use Tkinter for the desktop form and python-docx with targeted
+XML handling for document editing.
+
+Requirements:
+- Client name, father's name, address, village, Tehsil and District.
+- Document date.
+- Add, edit and remove land records.
+- Each record has Bahi number, Khasra number, area and Lagan.
+- Keep identifiers as strings and calculate totals using Decimal.
+- Save and load client data as JSON.
+- Generate a new DOCX without overwriting the original template.
+- Update every repeated land table, including nested tables.
+- Preserve surrounding text, fonts and formatting.
+
+First inspect the actual template and report the editable fields,
+table structures and Hindi font encoding. Do not assume a DevLys
+conversion mapping or silently insert Unicode text into DevLys runs.
+
+Implement the document engine first, then connect the desktop form.
+Provide requirements.txt, a README with Mac setup instructions,
+sample data and meaningful verification checks.

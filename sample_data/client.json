@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "client_name": "o`Unkou",
+  "father_name": "txUukFk",
+  "address": "eaM[ksMk",
+  "village": "eaM[ksMk",
+  "tehsil": "';keiqj",
+  "district": "lhgksj",
+  "document_date": "2026-09-22",
+  "text_mode": "legacy_devlys",
+  "unicode_font": "DevLys 010",
+  "records": [
+    {
+      "khasra": "199/2",
+      "area": "0.457",
+      "lagan": "3.60"
+    },
+    {
+      "khasra": "352/4/3",
+      "area": "0.409",
+      "lagan": "2.91"
+    },
+    {
+      "khasra": "360/1/2",
+      "area": "0.254",
+      "lagan": "2.03"
+    },
+    {
+      "khasra": "408/351/2/1",
+      "area": "0.109",
+      "lagan": "0.27"
+    }
+  ],
+  "age": "40",
+  "caste": "czkEg.k",
+  "bahi": "LD-445692"
+}
