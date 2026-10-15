@@ -140,3 +140,7 @@ PyInstaller does not cross-compile a native Windows executable from macOS. The r
 5. Copy `LandDocs.exe` to the Windows PC and double-click it. Install the DevLys fonts on that PC first.
 
 The Windows package includes the template and sample data. It creates an `output` folder beside the executable. Windows SmartScreen may show an unsigned-app warning because this build is not code-signed.
+
+### Build for 32-bit Windows
+
+Use the separate **Build 32-bit Windows application** workflow in GitHub Actions. It uses 32-bit Python and produces `LandDocs-Windows-x86.zip`. A 32-bit EXE runs on both 32-bit and 64-bit Windows, while the normal x64 EXE cannot run on 32-bit Windows.
